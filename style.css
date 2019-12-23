@@ -96,11 +96,9 @@ BODY{
     font-family: 'Comfortaa';
 }    
 
-<<<<<<< HEAD
-.wheather{
-    float: left;
-    margin-top: 60;
-    margin-right: -200;
+.weather{
+    position: absolute;
+    margin-top: 3.5%;
 }
 .open_info_day{
     align-content: center;
