@@ -1,3 +1,14 @@
+$('#btn').click(function(){
+  var login = document.getElementById('password').value;
+  var password = document.getElementById('login').value;
+
+  if (login == 'Lacane' && password == '123456'){
+      $('#login_part').hide();
+      $('#black_back').hide();
+}
+  else{ alert ('Вход запрещен!');	
+}
+});
 
 
 $('#pt_button').click(function() {
